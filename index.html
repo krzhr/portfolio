@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kira's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Kira's Portfolio</a>
+        <nav>
+            <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hello, I'm <span style="color: var(--pink)">Kira!</span></h1>
+        <p>A creative designer and a junior web developer crafting beautiful digital experiences.</p>
+        <a href="#work" class="scroll-indicator">↓</a>
+    </section>
+
+    <section id="work" class="section">
+        <h2 class="section-title">Selected Work</h2>
+        <div class="projects-carousel">
+            <div class="projects-track" id="projectsTrack">
+                <div class="project-card">
+                    <img src="images/bixi.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Binusian eXchange and Interaction Platform</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/vantis.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Vantis Prosperindo Manajemen</h3>
+                        <p>UX/UI Design</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/pcf.png" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project C Foundation</h3>
+                        <p>Content Writing and Design</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/mocca's.png" alt="Project 4">
+                    <div class="project-info">
+                        <h3>Mocca's Coffee Shop</h3>
+                        <p>Mobile App Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-btn" id="prevBtn">←</button>
+                <button class="carousel-btn" id="nextBtn">→</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="about-bg-image">
+            <img src="images/about.png" alt="Background pattern">
+        </div>
+        
+        <div class="about-bg-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p style="font-weight: bold; font-size: larger";>I'm Kira, an Information Systems student at BINUS University, born and raised in Indonesia.</p>
+                    <p>With a strong passion for UI/UX design, I bring together both the technical and business perspectives that my major has taught me. My background allows me to translate user needs into thoughtful and functional design solutions. </p>
+                    <p>My approach combines strategic thinking with attention to detail, resulting in work that's not only visually appealing but also highly effective.</p>
+                </div>
+                    <div class="about-portrait">
+                        <img src="images/me.png" alt="Kira" class="portrait">
+                    </div>
+            </div>
+        </div>
+
+        <div class="skills-section">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="images/figma.png" alt="Figma">
+                    <h3>Figma</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="images/canva.png" alt="Canva">
+                    <h3>Canva</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="images/photoshop.png" alt="Canva">
+                    <h3>Adobe Photoshop</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="images/office.png" alt="Canva">
+                    <h3>Microsoft Office</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="images/capcut.png" alt="Canva">
+                    <h3>CapCut</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="images/html.png" alt="Canva">
+                    <h3>HTML</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="images/css.png" alt="Canva">
+                    <h3>CSS</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="images/lua.png" alt="Canva">
+                    <h3>Lua</h3>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="contact-bg-image">
+            <img src="images/me-2.png" alt="Background pattern">
+        </div>
+        <div class="contact-content">
+            <h1 class="contact-title">Let's Connect!</h1>
+            <a href="#" class="contact-cta">Connect</a>
+            <div class="contact-social-links">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Dribbble</a>
+                <a href="#">Behance</a>
+            </div>
+        </div>
+    </section>
+
+<script>
+
+// carousel functionality
+const track = document.getElementById('projectsTrack');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const projects = document.querySelectorAll('.project-card');
+const projectWidth = projects[0].offsetWidth + 32; // width + gap
+
+let currentPosition = 0;
+
+function updateButtons() {
+    prevBtn.disabled = currentPosition === 0;
+    nextBtn.disabled = currentPosition <= -(projects.length - 3) * projectWidth;
+}
+
+function moveCarousel() {
+    track.style.transform = `translateX(${currentPosition}px)`;
+    updateButtons();
+}
+
+prevBtn.addEventListener('click', () => {
+    currentPosition += projectWidth;
+    if (currentPosition > 0) currentPosition = 0;
+    moveCarousel();
+});
+
+nextBtn.addEventListener('click', () => {
+    currentPosition -= projectWidth;
+    if (currentPosition < -(projects.length - 3) * projectWidth) {
+        currentPosition = -(projects.length - 3) * projectWidth;
+    }
+    moveCarousel();
+});
+
+updateButtons();
+
+
+// animation controller
+let lastScrollPosition = window.scrollY;
+let currentActiveSection = document.querySelector('.section');
+currentActiveSection.classList.add('active');
+
+const getCurrentSection = () => {
+    const sections = document.querySelectorAll('.section');
+    let currentSection = currentActiveSection;
+    const threshold = window.innerHeight * 0.5;
+    
+    sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= threshold && rect.bottom >= threshold) {
+            currentSection = section;
+        }
+    });
+    
+    return currentSection;
+};
+
+const animateSectionTransition = (newSection, direction) => {
+    if (currentActiveSection === newSection) return;
+    
+    // exit
+    currentActiveSection.classList.add('exiting');
+    currentActiveSection.classList.remove('active');
+    
+    // enter
+    newSection.classList.remove('exiting');
+    newSection.classList.add('active');
+    
+    currentActiveSection = newSection;
+    
+    setTimeout(() => {
+        document.querySelectorAll('.section').forEach(section => {
+            if (section !== currentActiveSection) {
+                section.classList.remove('exiting');
+            }
+        });
+    }, 800);
+    
+    // about sectiion exceptiion
+    if (newSection.id === 'about') {
+        animateAboutContent();
+    }
+};
+
+const animateAboutContent = () => {
+    const aboutTexts = document.querySelectorAll('.about-text p');
+    const aboutPortrait = document.querySelector('.about-portrait');
+    const skillCards = document.querySelectorAll('.skill-card');
+    
+    // about me content
+    aboutTexts.forEach((p, index) => {
+        setTimeout(() => {
+            p.classList.add('visible');
+        }, index * 200);
+    });
+    
+    setTimeout(() => {
+        aboutPortrait.classList.add('visible');
+    }, aboutTexts.length * 200);
+
+    // animate skills delay
+    skillCards.forEach((card, index) => {
+        setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+        }, 600 + (index * 100));
+    });
+};
+
+// about content scroll handlr
+const handleAboutContentScroll = () => {
+    const aboutSection = document.getElementById('about');
+    if (!aboutSection) return;
+    
+    const rect = aboutSection.getBoundingClientRect();
+    const isInView = rect.top < window.innerHeight && rect.bottom > 0;
+    
+    if (isInView) {
+        animateAboutContent();
+    }
+};
+
+window.addEventListener('scroll', () => {
+    const currentScrollPosition = window.scrollY;
+    const scrollingDown = currentScrollPosition > lastScrollPosition;
+    lastScrollPosition = currentScrollPosition;
+    
+    const newSection = getCurrentSection();
+    
+    if (newSection !== currentActiveSection) {
+        animateSectionTransition(newSection, scrollingDown ? 'down' : 'up');
+    }
+    
+    handleAboutContentScroll();
+    
+    // Hero section fade
+    const hero = document.querySelector('.hero');
+    const heroHeight = hero.offsetHeight;
+    if (currentScrollPosition > heroHeight * 0.3) {
+        const opacity = 1 - (currentScrollPosition / (heroHeight * 0.7));
+        hero.style.opacity = Math.max(opacity, 0).toString();
+    } else {
+        hero.style.opacity = '1';
+    }
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+    const heroElements = document.querySelectorAll('.hero h1, .hero p');
+    heroElements.forEach(el => {
+        el.style.opacity = '0';
+    });
+    
+    setTimeout(() => {
+        heroElements.forEach(el => {
+            el.style.opacity = '1';
+        });
+    }, 100);
+    
+    const firstSection = document.querySelector('.section');
+    firstSection.classList.add('active');
+});
+</script>
+
+</body>
+</html>
